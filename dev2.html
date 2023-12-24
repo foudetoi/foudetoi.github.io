@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      * {
+        /* border: 1px dashed #808; */
+        box-sizing: border-box;
+        margin: 0;
+      }
+      .scroll-container {
+        width: 100%;
+        overflow-x: hidden;
+        white-space: nowrap;
+        /* animation: scroll 10s linear infinite; */
+      }
+
+      .scroll-content {
+        display: inline-block;
+        white-space: nowrap;
+        animation: scroll 10s linear infinite;
+      }
+      img {
+        max-width: 100%;
+      }
+      .scroll-container img {
+        float: left;
+        width: 300%;
+        max-width: 300%;
+      }
+
+      @keyframes scroll {
+        0% {
+          transform: translateX(0%);
+        }
+        20% {
+          transform: translateX(0%);
+        }
+        25% {
+          transform: translateX(-50%);
+        }
+        45% {
+          transform: translateX(-50%);
+        }
+        50% {
+          transform: translateX(-100%);
+        }
+        70% {
+          transform: translateX(-100%);
+        }
+        75% {
+          transform: translateX(-150%);
+        }
+        95% {
+          transform: translateX(-150%);
+        }
+        100% {
+          transform: translateX(-200%);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <img src="favicon.ico" alt="logo" />
+      <div class="scroll-container">
+        <div class="scroll-content">
+          <img src="img/feed.webp" alt="Imagen" />
+          <!-- <img src="_ignore/02.jpg" alt="Imagen" width="500"> -->
+        </div>
+      </div>
+      <img src="img/qr-03.webp" alt="">
+    </main>
+  </body>
+</html>

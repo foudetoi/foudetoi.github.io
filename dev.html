@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Popup Example</title>
+    <style>
+      /* Style for the iframe */
+      #myIframe {
+        width: 300px; /* Set your iframe width */
+        height: 200px; /* Set your iframe height */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Replace "your-iframe-source-url" with the actual source URL for your iframe -->
+    <!-- <iframe id="myIframe" src="your-iframe-source-url" frameborder="0"></iframe> -->
+    <iframe
+      id="myIframe"
+      class="map"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3844.819782700047!2d-70.13359849999999!3d-15.494122999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9167f3e448177f65%3A0x1b8b7d471413857d!2sFou%20de%20toi-%20Snack%20Restaurant%20Vegetariano!5e0!3m2!1sen!2spe!4v1703468978584!5m2!1sen!2spe"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+    <button id="openPopupButton">Open Popup</button>
+
+    <script>
+      // Function to open the popup with 100% width and 100vh height
+      function openPopup() {
+        // Calculate the width and height
+        var popupWidth = window.innerWidth;
+        var popupHeight = window.innerHeight;
+
+        // Open the popup with calculated dimensions
+        window.open("", "_blank", "width=" + popupWidth + ", height=" + popupHeight);
+      }
+
+      // Add a click event listener to the button
+      var openPopupButton = document.getElementById("openPopupButton");
+      openPopupButton.addEventListener("click", openPopup);
+    </script>
+  </body>
+</html>

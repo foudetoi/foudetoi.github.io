@@ -27,3 +27,7 @@ https://casa-de-la-salud-1.ueniweb.com/
 
 Excelente restaurante vegetariano en Juliaca
 ¿Estás en busca de un restaurante vegetariano en Juliaca? Te proponemos que tu alimento sea tu medicina y tu medicina sea tu único alimento.
+
+
+Comparte el vínculo de opinión con los clientes:
+https://g.page/r/CX2FExRHfYsbECA/review

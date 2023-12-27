@@ -68,6 +68,17 @@ hr {
   text-align: left;
   font-size: 3vw;
 }
+.contact .right {
+  gap: 1em;
+}
+.contact .social {
+  display: flex;
+  gap: 1em;
+  flex-direction: column;
+}
+section.location h3{
+  margin: 1em;
+}
 /* === Desktop... === */
 @media (min-width: 40rem) {
   .contact {
